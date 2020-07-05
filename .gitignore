@@ -1,5 +1,10 @@
 *.jpg
 *.png
 *.gif
+<<<<<<< HEAD
+Curso Xcript/app-comerciales-kivy/.idea/*
+Curso Xcript/app-comerciales-kivy/venv/*
+=======
 Presentaciones/
 Curso SoloLearn/
+>>>>>>> 13832626bfd3e6255125fc631391ab5e9bd9fac3
