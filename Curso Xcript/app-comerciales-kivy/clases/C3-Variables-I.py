@@ -12,6 +12,22 @@ utiliza para almacenar algún tipo de información
 Valor: es un dato o una información de acuerdo
 con sus características de un determinado tipo.
 
+Características
+
+Toda variable presenta:
+Un Nombre
+Un Tipo
+Un Tamaño
+Un Valor
+
+Nombre == Nombre dado de la variabñe
+Valor == Valor atribuido.
+
+Tipo int son numeros enteros 20, 1, 10, 45, etc.
+Tipo float son numeros con decimales 15.55, 22.2, etc.
+
+Las variables seran del tipo del primer valor atribuido.
+
 """
 a = 10
 print(a)
