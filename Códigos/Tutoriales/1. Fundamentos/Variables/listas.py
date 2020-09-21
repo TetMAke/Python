@@ -26,12 +26,13 @@ while i < 10:
 i=0
 print(vector_vacío) #puedes imprimir listas completas
 print(vector) # puedes imprimir listas completas
+print(vector_suma) 
 print(vector_múltiple)
 while i < 3:
     print(vector_múltiple[3][i]) #accediendo a listas dentro de listas
     i +=1 #las listas anidados es la forma para trabajar con matrices 
 i=0
-vector5 = vector + vector3 #concatenando listas (como si fuera String)
+vector5 = vector + vector3 #concatenando listas (como si fuera String) por medio de la suma 
 print(vector5)
 print(vector*3) #triplicación de los elementos de la lista (como si fuera String)
 
@@ -51,6 +52,8 @@ anexo = float(input("Agregue un número flotante aquí: "))
 anexo2 = input("Agruegue una variable String aquí: ")
 vector.append(anexo) #método append (adjuntar) permite agregar nuevos elementos a los vectores aumentando su tamaño
 vector2.append(anexo2)#Se puede adjuntar cualquier tipo de datos
+vector2.pop(0) # Método pop (reventar) permte remover elementos a la lista reduciendo su tamaño. "hola" desaparece al estar en la posición 0
+print(vector2) #Recuerda que se pueden imprimir los vectores(listas) directamente
 print(vector) #Recuerda que se pueden imprimir los vectores(listas) directamente
 print(vector2) #Recuerda que se pueden imprimir los vectores(listas) directamente
 longitud = len(vector4) #función para obtener la longitud de una lista (vector) o String

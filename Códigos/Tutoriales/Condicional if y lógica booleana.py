@@ -1,11 +1,6 @@
-# condicional if y operadores lógicos (And, Or y Not)
+# Operadores lógicos (And, Or y Not)
 
 """
-El condicional if (si) es una  forma de hacer control a las instrucciones del progromama. Por medio de de la sentencia if es posible decidir
-cuáles instrucciones y cuales no dependiendo de una o varias condiciones. El siguiente programa sirve para elaborar un bot simple con el que
-puedes dialogar dependiendo de lo que respondas. En este código no sólo se muestra cómo usar el condicional if sino como  pedir datos y 
-guardarlos en variables. 
-
 Operadores lógicos
 
 Un aspecto a tener en cuenta antes de empezar con el código, es un concepto conocido como los operadores lógicos. Ellos no son más que palabras
@@ -14,7 +9,7 @@ res más comunes son los siguientes:
 
 Operador Lógico   Python          Ejemplo                                         ¿Cuándo es verdad?
 Y                 And             Edad es mayor a 20 y edad es menor a 50         Tanto la edad debe ser mayor a 20 y menor 50. Ej: 35
-O                 Or              Color es negro o color es gris                  El color puede ser negro o rojo o bien tener ambos colores                 
+O                 Or              Color es negro o color es gris                  El color puede ser negro o gris        o bien tener ambos colores                 
 No                Not             El número de carros rojos no es 3               Sólo cuando el número de carros no es 3
 
 Acá les dejo un buen enlace si quieren más información sobre operadores lógicos:
@@ -76,4 +71,4 @@ if edad >= 18: # Si el la edad es mayor o igual a 18 años, entonces el bot preg
 else: # la declaración if y su declaración else deben tener la mísma sangría(indentation) para que la sintaxis sea correcta
         print("eres menor de edad.\nTe faltan "+ str(18-edad) + " años para llegar a los 18. El bot para niños está en otro repositorio.")
 
-"""Incluir referencias sobre operadores lógicos en español"""
+
