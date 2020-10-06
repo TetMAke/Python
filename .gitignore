@@ -11,8 +11,13 @@ Curso SoloLearn/
 >>>>>>> 13832626bfd3e6255125fc631391ab5e9bd9fac3
 =======
 *.txt
+*.pdf
 Presentaciones/
 Curso SoloLearn/
 Libros/
 Python Institute/
+<<<<<<< HEAD
 >>>>>>> 5ab3edd826acaacd1c4f2a2a1b4e7a5bc6798333
+=======
+Ambientes virtuales/
+>>>>>>> c497fb7e6ced61a6fd3325343d621dd2e6d77471
